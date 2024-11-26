@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to clone and run the mini-reddit:
 
-Things you may want to cover:
+* fork the repo
+* clone the repo with the ssh/https/github cli
+* run the process with rails c/rails console (as i have not yet created requests for this particular project)
 
-* Ruby version
+How to use the app:
 
-* System dependencies
+* add a new user with User.create (so that the user is saved automatically)
+* this user can create either a post or comment on an existing post
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+* ! IN ORDER FOR THE USER TO BE ABLE TO COMMENT ON A POST THERE HAS TO BE AN EXISTING POST OTHERWISE YOU WILL BE MET WITH AN ERROR !
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+-all the dependencies are up to date
